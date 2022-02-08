@@ -31,7 +31,8 @@ input.click();
         five.click();
         WebElement six = driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div[1]/div/div/div[3]/div/table[2]/tbody/tr[4]/td[1]/div/div"));
         six.click();
-
+WebElement seven = driver.findElement(By.xpath("//*[@id=\"rso\"]/div[1]/div/div/div[1]/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div"));
+        seven.click();
 
         driver.quit();
     }
